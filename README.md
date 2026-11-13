@@ -59,7 +59,7 @@ git clone https://github.com/saishmekal/Portfolio.git
 Navigate into the project:
 
 ```bash
-cd REPOSITORY
+cd Portfolio
 ```
 
 Install dependencies:
