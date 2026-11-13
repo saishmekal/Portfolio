@@ -1,75 +1,103 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+# Saish Mekal — Developer Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**From fixing bugs to building things that work.**
 
-## React Compiler
+A personal corner of the internet where I showcase what I build, what I'm learning, and the technologies I work with.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Live Portfolio](https://YOUR-PORTFOLIO.vercel.app)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 👨‍💻 About
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Hey, I'm **Saish**, a Full Stack Developer who enjoys turning ideas into functional, thoughtfully designed digital experiences.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+I work on responsive web applications, explore backend technologies, and love figuring out how things work behind the scenes.
 
+This portfolio brings together my projects, skills, and journey as a developer.
+
+## ⚡ Tech Stack
+
+**Frontend**
+- React
+- TypeScript
+- HTML5
+- CSS3
+
+**Tools & Technologies**
+- Vite
+- Git & GitHub
+- VS Code
+- Vercel
+
+## ✨ Portfolio Features
+
+- Modern, responsive interface
+- Dark and light mode toggle
+- Interactive project showcase
+- Tech stack and about sections
+- Contact and social links
+- Clean, minimal design
+
+## 🖥️ Preview
+
+![Portfolio Preview](./public/portfolio-preview.png)
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/saishmekal/Portfolio.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate into the project:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd REPOSITORY
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+## 🌐 Deployment
+
+This portfolio is deployed using **Vercel**.
+
+## 📬 Let's Connect
+
+I'm open to collaborating on interesting projects and exploring new opportunities.
+
+- **GitHub:** https://github.com/saishmekal
+- **LinkedIn:** https://www.linkedin.com/in/saish-mekal-64499b253/
+- **Portfolio:** https://YOUR-PORTFOLIO.vercel.app
+
+---
+
+<div align="center">
+
+**Mostly fixing bugs I created twenty minutes ago.**
+
+Built with React, TypeScript & a little too much debugging.
+
+</div>
