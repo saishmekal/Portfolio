@@ -7,7 +7,7 @@
 
 A personal corner of the internet where I showcase what I build, what I'm learning, and the technologies I work with.
 
-[Live Portfolio](https://YOUR-PORTFOLIO.vercel.app)
+[Live Portfolio](https://saish-portfolio-psi.vercel.app/)
 
 </div>
 
@@ -88,9 +88,8 @@ This portfolio is deployed using **Vercel**.
 
 I'm open to collaborating on interesting projects and exploring new opportunities.
 
-- **GitHub:** https://github.com/saishmekal
-- **LinkedIn:** https://www.linkedin.com/in/saish-mekal-64499b253/
-- **Portfolio:** https://YOUR-PORTFOLIO.vercel.app
+- **GitHub:** (https://github.com/saishmekal)
+- **LinkedIn:** (https://www.linkedin.com/in/saish-mekal-64499b253/)
 
 ---
 
